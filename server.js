@@ -3,6 +3,7 @@ var http = require('http');
 
 
 var app = express();
+var PORT = process.env.PORT || 8000
 app.use(express.static('client'));
 
 // app.get('/', function(request, response) {
@@ -14,4 +15,4 @@ app.use(express.static('client'));
 
 
 console.log('The Server is Working on port 8000!!!!')
-app.listen(process.env.PORT || 8000);
+app.listen(PORT);

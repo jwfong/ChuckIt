@@ -1,7 +1,6 @@
-'use strict';
+import angular from 'angular';
 
 angular.module('app', [])
-
 .controller('MainController', function($scope, Chuck){
   // angular.extend($scope);
 	$scope.getChuck = function() {
