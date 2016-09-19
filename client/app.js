@@ -12,27 +12,6 @@ angular.module('app', [])
 		  });
 	};
 })
-
-// .factory('Todos', function() {
-// 	var todos = [];
-	
-// 	var addTodo = function(title){
-// 		todos.push({title: title, due: Date.now() });
-// 	};
-
-// 	var done = function(index) {
-// 		todos.splice(index,1);
-// 	};
-
-// 	return {
-// 		todos: todos,
-// 		addTodo: addTodo,
-// 		done: done
-// 	};
-// })
-
-
-
 .factory('Chuck', function($http){
 	var jokes = [];
     var getData = function() {
