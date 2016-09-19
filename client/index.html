@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body ng-controller="MainController">
+
+<section class="test">
+	<div ng-model="newChuck"> 
+	  <button ng-click="getChuck()">Chuck</button>	
+	</div>
+</section>
+ 
+
+
+<section class="code">
+<h2>{{chuck | json}}</h2>
+</section>
+
+<script src="http://code.angularjs.org/1.2.6/angular.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>

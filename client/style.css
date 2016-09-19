@@ -1,0 +1,20 @@
+body {
+	background-image: url("http://www.gunaxin.com/wp-content/uploads/2015/09/Chuck-Norris-2-560x280.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: white;
+
+
+}
+
+button {
+	align-self: center;
+}
+
+.test {
+	position: relative;
+	padding-top: 400px;
+}
+
+
+
