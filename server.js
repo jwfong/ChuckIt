@@ -14,4 +14,4 @@ app.use(express.static('client'));
 
 
 console.log('The Server is Working on port 8000!!!!')
-app.listen(8000);
+app.listen(process.env.PORT || 8000);
